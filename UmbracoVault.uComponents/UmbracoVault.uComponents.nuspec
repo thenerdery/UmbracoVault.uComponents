@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>UmbracoVault.uComponents</id>
+    <version>0.0.0</version>
+    <title>Umbraco Vault for uComponents</title>
+    <authors>Paul Trandem, Ken Sykora, Andrew Morger, Jared Swarts, Phillip Knauss</authors>
+    <owners>thenerdery</owners>
+    <projectUrl>https://github.com/kensykora/UmbracoVault.uComponents</projectUrl>
+    <licenseUrl>https://github.com/kensykora/UmbracoVault.uComponents/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Extension to Vault for Umbraco adding uComponents support.</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>C# Umbraco Nerdery Mapping Extensions</tags>
+    <dependencies>
+      <dependency id="UmbracoCms.Core" version="[6.2.1, 6.2.4]" />
+      <dependency id="uComponents" version="[6.0.0]" />
+      <dependency id="UmbracoVault" version="0.9.0" />
+    </dependencies>
+  </metadata>
+</package>

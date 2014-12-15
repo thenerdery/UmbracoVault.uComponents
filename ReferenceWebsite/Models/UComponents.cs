@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Nerdery.Umbraco.Vault.Attributes;
-using Nerdery.Umbraco.VaultExtensions.Attributes;
+using UmbracoVault.Attributes;
+using UmbracoVault.uComponents.Attributes;
 using uComponents.DataTypes.UrlPicker.Dto;
 
 namespace ReferenceWebsite.Models
