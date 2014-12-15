@@ -991,10 +991,13 @@
     <Content Include="media\dummy.txt" />
     <Content Include="scripts\dummy.txt" />
     <Content Include="usercontrols\dummy.txt" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="xslt\dummy.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\GenericContent.cs" />
     <Compile Include="Models\UComponents.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
