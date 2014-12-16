@@ -35,8 +35,6 @@ namespace ReferenceWebsite.Models
         //TODO: Re-enable support for UrlPicker
         public string Dropdown { get; set; }
         public string[] DropdownMultiple { get; set; }
-
-
     }
 
     /// <summary>

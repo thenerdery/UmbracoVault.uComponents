@@ -4,6 +4,21 @@
 
 The following uComponents data types are currently supported:
 
+### UrlPicker
+
+Create a property on your object with the type `uComponents.DataTypes.UrlPicker.Dto.UrlPickerState`.
+
+Example:
+```csharp
+[UmbracoEntity(AutoMap = true)]
+public class MyViewModel
+{
+    public string Name { get; set; }
+    public string Location { get; set; }
+    public UrlPickerState ExternalLink { get; set; }
+}
+```
+
 ### DataType Grid
 
 Create a property and add the attribute `UmbracoVault.uComponents.Attributes.UmbracoDataTypeGridProperty`
@@ -15,6 +30,8 @@ The following field types have been tested:
  * Content Picker - can use Object mapping to map to another document type.
  * Media Picker
  * Numeric (only supports integers, limitation of Umbraco itself)
+ * Dropdown
+ * Dropdown Multiple
 
 These field types are _NOT_ yet supported:
 
