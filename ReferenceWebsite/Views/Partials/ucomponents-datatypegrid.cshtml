@@ -10,7 +10,8 @@
 	    @*<th>DatePicker type</th>*@
 	    <td>ContentPicker (object map)</td>
 	    <td>Checkbox List</td>
-        <td>MediaPicker</td>
+	    <td>MediaPicker</td>
+        <td>Numeric</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
 	{
@@ -24,7 +25,8 @@
 		            @item<br/>
 		        }
 		    </td>
-            <td><img src="@entry.MediaPicker.Url" width="150" height="150"/></td>
+		    <td><img src="@entry.MediaPicker.Url" width="150" height="150"/></td>
+            <td>@entry.Numeric</td>
 		</tr>
 	}
 </table>

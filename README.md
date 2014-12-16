@@ -28,6 +28,8 @@ The following field types have been tested:
  * Textstring
  * Checkbox list
  * Content Picker - can use Object mapping to map to another document type.
+ * Media Picker
+ * Numeric (only supports integers, limitation of Umbraco itself)
 
 These field types are _NOT_ yet supported:
 
@@ -57,6 +59,7 @@ Example Usage - DataType Grid Row View Model
         public Person ContentPicker { get; set; }
         public string[] CheckboxList { get; set; } 
         public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
+        public int Numeric { get; set; }
     }
 ```
 
