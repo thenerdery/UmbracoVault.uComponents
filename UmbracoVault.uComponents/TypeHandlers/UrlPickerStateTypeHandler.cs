@@ -16,7 +16,7 @@ namespace UmbracoVault.uComponents.TypeHandlers
 
             if (urlPickerState == null)
             {
-                urlPickerState = UrlPickerState.Deserialize(value.ToString()) ?? new UrlPickerState() { NewWindow = false, Title = string.Empty, Url = string.Empty };
+                urlPickerState = UrlPickerState.Deserialize(value.ToString()) ?? new UrlPickerState { NewWindow = false, Title = string.Empty, Url = string.Empty };
             }
             return urlPickerState;
         }

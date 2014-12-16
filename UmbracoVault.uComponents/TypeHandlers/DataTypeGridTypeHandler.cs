@@ -23,6 +23,7 @@ namespace UmbracoVault.uComponents.TypeHandlers
             {
                 var item = typeof (T).CreateWithNoParams<T>();
 
+                // ReSharper disable once CompareNonConstrainedGenericWithNull
                 if (item == null)
                 {
                     throw new ConstructorUnavailableException(typeof (T));
