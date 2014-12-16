@@ -33,6 +33,8 @@ namespace ReferenceWebsite.Models
         public string TextboxMultiple { get; set; }
         //public UrlPickerState UrlPicker { get; set; }
         //TODO: Re-enable support for UrlPicker
+        public string Dropdown { get; set; }
+        public string[] DropdownMultiple { get; set; }
 
 
     }

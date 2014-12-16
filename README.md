@@ -58,11 +58,13 @@ Example Usage - DataType Grid Row View Model
     {
         public string TextString { get; set; }
         public Person ContentPicker { get; set; }
-        public string[] CheckboxList { get; set; } 
+        public string[] CheckboxList { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
         public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
         public int Numeric { get; set; }
         public bool TrueFalse { get; set; }
         public string TextboxMultiple { get; set; }
+        public string Dropdown { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
+        public string[] DropdownMultiple { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
     }
 ```
 
