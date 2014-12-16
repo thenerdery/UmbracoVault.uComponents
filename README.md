@@ -34,7 +34,7 @@ These field types are _NOT_ yet supported:
  * Date Picker
  * Date Picker with Time
 
-Example Usage - View Model
+Example Usage - Umbraco Document View Model
 ```csharp
     [UmbracoEntity(AutoMap = true)]
     public class UComponentsDataTypeGridModel
@@ -48,12 +48,14 @@ Example Usage - View Model
 
 The row view model is just the same as a standard model you would map for any other document type. In the example for `UCompnentsDataTypeGridItem` above:
 
+Example Usage - DataType Grid Row View Model
 ```csharp
     [UmbracoEntity(AutoMap = true)]
     public class UComponentsDataTypeGridItem
     {
         public string TextString { get; set; }
         public Person ContentPicker { get; set; }
+        public string[] CheckboxList { get; set; } 
     }
 ```
 

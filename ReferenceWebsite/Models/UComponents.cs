@@ -25,6 +25,7 @@ namespace ReferenceWebsite.Models
         //public DateTime DatePicker { get; set; }
         //TODO: Re-enable support for DateTime once included in Core
         public Person ContentPicker { get; set; }
+        public string[] CheckboxList { get; set; } 
     }
 
     /// <summary>

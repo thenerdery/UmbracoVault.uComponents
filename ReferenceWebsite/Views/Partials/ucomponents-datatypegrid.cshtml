@@ -9,13 +9,20 @@
 		<th>TextString type</th>
 	    @*<th>DatePicker type</th>*@
 	    <td>ContentPicker (object map)</td>
+        <td>Checkbox List</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
 	{
 		<tr>
 			<td>@entry.TextString</td>
 		    @*<td>@entry.DatePicker</td>*@
-            <td>@entry.ContentPicker</td>
+		    <td>@entry.ContentPicker</td>
+		    <td>
+		        @foreach (var item in @entry.CheckboxList)
+		        {
+		            @item<br/>
+		        }
+		    </td>
 		</tr>
 	}
 </table>
