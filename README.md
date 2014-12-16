@@ -29,6 +29,11 @@ The following field types have been tested:
  * Checkbox list
  * Content Picker - can use Object mapping to map to another document type.
 
+These field types are _NOT_ yet supported:
+
+ * Date Picker
+ * Date Picker with Time
+
 Example Usage - View Model
 ```csharp
     [UmbracoEntity(AutoMap = true)]
