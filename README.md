@@ -60,6 +60,8 @@ Example Usage - DataType Grid Row View Model
         public string[] CheckboxList { get; set; } 
         public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
         public int Numeric { get; set; }
+        public bool TrueFalse { get; set; }
+        public string TextboxMultiple { get; set; }
     }
 ```
 

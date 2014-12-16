@@ -11,7 +11,10 @@
 	    <td>ContentPicker (object map)</td>
 	    <td>Checkbox List</td>
 	    <td>MediaPicker</td>
-        <td>Numeric</td>
+	    <td>Numeric</td>
+	    <td>Simple Editor</td>
+	    <td>Truefalse</td>
+	    <td>Textbox Multiple</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
 	{
@@ -26,7 +29,10 @@
 		        }
 		    </td>
 		    <td><img src="@entry.MediaPicker.Url" width="150" height="150"/></td>
-            <td>@entry.Numeric</td>
+		    <td>@entry.Numeric</td>
+		    <td>@Html.Raw(entry.SimpleEditor)</td>
+		    <td>@entry.TrueFalse</td>
+            <td>@entry.TextboxMultiple</td>
 		</tr>
 	}
 </table>

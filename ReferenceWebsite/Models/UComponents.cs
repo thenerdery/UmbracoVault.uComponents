@@ -28,6 +28,9 @@ namespace ReferenceWebsite.Models
         public string[] CheckboxList { get; set; }
         public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
         public int Numeric { get; set; }
+        public string SimpleEditor { get; set; }
+        public bool TrueFalse { get; set; }
+        public string TextboxMultiple { get; set; }
 
     }
 
