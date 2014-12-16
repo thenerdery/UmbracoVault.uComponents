@@ -9,11 +9,48 @@
 
 **Version 0.9, Designed for Umbraco 6.x**
 
-***Note**: We're already hard at work developing and testing a more refined version of Vault designed to support Umbraco 7. Some features identified in this document may not apply to newer versions of Umbraco Vault. But don't worry, the good stuff will stick around.*
+***Note**: We're already hard at work developing and testing a more refined version of Vault designed to support Umbraco 7. 
+Some features identified in this document may not apply to newer versions of Umbraco Vault. But don't worry, the good stuff will stick around.*
 
-***Also note**: Vault has a lot of features. We're actively working on documenting all of them, but this may take some time; this document is not yet complete.*
+***Also note**: Vault has a lot of features. We're actively working on documenting all of them, but this may take some time; 
+this document is not yet complete.*
 
-TODO: Mention uComponents requirement here? OR: rip out ucomponents requirement because it's dumb as a dependency? 
+## Supported Data Types
+
+The following uComponents data types are currently supported:
+
+### DataType Grid
+
+Create a property and add the attribute `UmbracoVault.uComponents.Attributes.UmbracoDataTypeGridProperty`
+
+The following field types have been tested:
+
+ * Textstring
+ * Checkbox list
+ * Content Picker - can use Object mapping to map to another document type.
+
+Example Usage - View Model
+```csharp
+    [UmbracoEntity(AutoMap = true)]
+    public class UComponentsDataTypeGridModel
+    {        
+        [UmbracoDataTypeGridProperty]
+        public List<UComponentsDataTypeGridItem> DataTypeGrid { get; set; }
+
+        public string SomeOtherProperty { get; set; }
+    }
+```
+
+The row view model is just the same as a standard model you would map for any other document type. In the example for `UCompnentsDataTypeGridItem` above:
+
+```csharp
+    [UmbracoEntity(AutoMap = true)]
+    public class UComponentsDataTypeGridItem
+    {
+        public string TextString { get; set; }
+        public Person ContentPicker { get; set; }
+    }
+```
 
 ## Notes:
 

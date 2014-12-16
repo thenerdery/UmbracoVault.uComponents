@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UmbracoVault.Attributes;
 using UmbracoVault.uComponents.Attributes;
 using uComponents.DataTypes.UrlPicker.Dto;
@@ -20,8 +21,10 @@ namespace ReferenceWebsite.Models
     [UmbracoEntity(AutoMap = true)]
     public class UComponentsDataTypeGridItem
     {
-        public string Name { get; set; }
-        public string Date { get; set; }
+        public string TextString { get; set; }
+        //public DateTime DatePicker { get; set; }
+        //TODO: Re-enable support for DateTime once included in Core
+        public Person ContentPicker { get; set; }
     }
 
     /// <summary>

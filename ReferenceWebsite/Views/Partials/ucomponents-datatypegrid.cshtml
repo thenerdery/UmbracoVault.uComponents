@@ -6,14 +6,16 @@
 <span>@poco.DataTypeGrid.Count items</span>
 <table border=1>
 	<tr>
-		<th>Name</th>
-		<th>Date</th>
+		<th>TextString type</th>
+	    @*<th>DatePicker type</th>*@
+	    <td>ContentPicker (object map)</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
 	{
 		<tr>
-			<td>@entry.Name</td>
-			<td>@entry.Date</td>
+			<td>@entry.TextString</td>
+		    @*<td>@entry.DatePicker</td>*@
+            <td>@entry.ContentPicker</td>
 		</tr>
 	}
 </table>

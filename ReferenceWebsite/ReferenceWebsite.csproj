@@ -315,6 +315,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\GenericContent.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\UComponents.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
