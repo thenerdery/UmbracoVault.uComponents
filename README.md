@@ -35,6 +35,7 @@ These field types are _NOT_ yet supported:
 
  * Date Picker
  * Date Picker with Time
+ * Url Picker
 
 Example Usage - Umbraco Document View Model
 ```csharp

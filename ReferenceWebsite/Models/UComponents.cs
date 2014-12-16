@@ -31,6 +31,9 @@ namespace ReferenceWebsite.Models
         public string SimpleEditor { get; set; }
         public bool TrueFalse { get; set; }
         public string TextboxMultiple { get; set; }
+        //public UrlPickerState UrlPicker { get; set; }
+        //TODO: Re-enable support for UrlPicker
+
 
     }
 
