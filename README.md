@@ -56,6 +56,7 @@ Example Usage - DataType Grid Row View Model
         public string TextString { get; set; }
         public Person ContentPicker { get; set; }
         public string[] CheckboxList { get; set; } 
+        public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
     }
 ```
 
