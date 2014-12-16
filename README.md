@@ -13,8 +13,6 @@
 
 ***Also note**: Vault has a lot of features. We're actively working on documenting all of them, but this may take some time; this document is not yet complete.*
 
-TODO: Mention uComponents requirement here? OR: rip out ucomponents requirement because it's dumb as a dependency? 
-
 ## Notes:
 
  * Currently depends on build artifact pacakage from private appveyor nuget feed. Please manually add the Repository <https://ci.appveyor.com/nuget/umbracovault-5m6ate96gcwx> or run the command
