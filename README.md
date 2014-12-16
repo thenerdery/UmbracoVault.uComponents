@@ -24,33 +24,32 @@ These field types are _NOT_ yet supported:
 
 Example Usage - Umbraco Document View Model
 ```csharp
-    [UmbracoEntity(AutoMap = true)]
-    public class UComponentsDataTypeGridModel
-    {        
-        [UmbracoDataTypeGridProperty]
-        public List<UComponentsDataTypeGridItem> DataTypeGrid { get; set; }
-
-        public string SomeOtherProperty { get; set; }
-    }
+[UmbracoEntity(AutoMap = true)]
+public class UComponentsDataTypeGridModel
+{        
+    [UmbracoDataTypeGridProperty]
+    public List<UComponentsDataTypeGridItem> DataTypeGrid { get; set; }
+    public string SomeOtherProperty { get; set; }
+}
 ```
 
 The row view model is just the same as a standard model you would map for any other document type. In the example for `UCompnentsDataTypeGridItem` above:
 
 Example Usage - DataType Grid Row View Model
 ```csharp
-    [UmbracoEntity(AutoMap = true)]
-    public class UComponentsDataTypeGridItem
-    {
-        public string TextString { get; set; }
-        public Person ContentPicker { get; set; }
-        public string[] CheckboxList { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
-        public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
-        public int Numeric { get; set; }
-        public bool TrueFalse { get; set; }
-        public string TextboxMultiple { get; set; }
-        public string Dropdown { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
-        public string[] DropdownMultiple { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
-    }
+[UmbracoEntity(AutoMap = true)]
+public class UComponentsDataTypeGridItem
+{
+    public string TextString { get; set; }
+    public Person ContentPicker { get; set; }
+    public string[] CheckboxList { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
+    public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
+    public int Numeric { get; set; }
+    public bool TrueFalse { get; set; }
+    public string TextboxMultiple { get; set; }
+    public string Dropdown { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
+    public string[] DropdownMultiple { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
+}
 ```
 
 ## Notes:
