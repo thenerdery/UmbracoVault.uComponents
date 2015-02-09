@@ -27,4 +27,4 @@ after_build:
   - nuget pack UmbracoVault/UmbracoVault.uComponents.csproj -Symbols -Version %CURRENT_VERSION%-build%APPVEYOR_BUILD_NUMBER%
   - nuget pack UmbracoVault/UmbracoVault.uComponents.csproj -Version %CURRENT_VERSION%
 artifacts:
-  - path: "*.nupkg"
+  - path: '*.nupkg'
