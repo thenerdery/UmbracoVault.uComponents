@@ -25,6 +25,6 @@ before_build:
   - nuget Sources Add -Name UmbracoVaultBuild -Source https://ci.appveyor.com/nuget/umbracovault-5m6ate96gcwx -UserName ksykora@nerdery.com -Password "%NUGET_PASSWORD%"
 after_build:
   - nuget pack UmbracoVault.uComponents/UmbracoVault.uComponents.csproj -Symbols -Version %CURRENT_VERSION%-build%APPVEYOR_BUILD_NUMBER%
-  - nuget pack UmbracoVault.uComponents/UmbracoVault.uComponents.csproj -Version %CURRENT_VERSION%
+  - nuget pack UmbracoVault.uComponents/UmbracoVault.uComponents.csproj -Symbols -Version %CURRENT_VERSION%
 artifacts:
   - path: '*.nupkg'
