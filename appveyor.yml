@@ -17,7 +17,6 @@ assembly_info:
 cache:
   - packages -> **\packages.config 
 configuration:
-  - Debug
   - Release
 after_build:
   - nuget pack UmbracoVault.uComponents/UmbracoVault.uComponents.csproj -Symbols -Version %CURRENT_VERSION%-build%APPVEYOR_BUILD_NUMBER%
