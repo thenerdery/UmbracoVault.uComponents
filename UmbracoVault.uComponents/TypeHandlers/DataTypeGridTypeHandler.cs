@@ -23,6 +23,7 @@ namespace UmbracoVault.uComponents.TypeHandlers
             {
                 var item = typeof (T).CreateWithNoParams<T>();
 
+                // ReSharper disable once CompareNonConstrainedGenericWithNull
                 if (item == null)
                 {
                     throw new ConstructorUnavailableException(typeof (T));
@@ -36,7 +37,7 @@ namespace UmbracoVault.uComponents.TypeHandlers
                     string value = null;
                     if (!string.IsNullOrWhiteSpace(alias) && currentRow != null)
                     {
-                        var cell = currentRow.FirstOrDefault(c => c.Alias == alias);
+                        var cell = currentRow.FirstOrDefault(c => c.Alias.Equals(alias, StringComparison.OrdinalIgnoreCase));
                         if (cell != null)
                         {
                             value = string.IsNullOrWhiteSpace(cell.Value) ? null : cell.Value;

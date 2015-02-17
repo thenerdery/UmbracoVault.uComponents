@@ -6,14 +6,44 @@
 <span>@poco.DataTypeGrid.Count items</span>
 <table border=1>
 	<tr>
-		<th>Name</th>
-		<th>Date</th>
+		<th>TextString type</th>
+	    @*<th>DatePicker type</th>*@
+	    <td>ContentPicker (object map)</td>
+	    <td>Checkbox List</td>
+	    <td>MediaPicker</td>
+	    <td>Numeric</td>
+	    <td>Simple Editor</td>
+	    <td>Truefalse</td>
+	    <td>Textbox Multiple</td>
+	    @*<td>UrlPicker</td>*@
+	    <td>Dropdown</td>
+        <td>Dropdown Mutliple</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
 	{
 		<tr>
-			<td>@entry.Name</td>
-			<td>@entry.Date</td>
+			<td>@entry.TextString</td>
+		    @*<td>@entry.DatePicker</td>*@
+		    <td>@entry.ContentPicker</td>
+		    <td>
+		        @foreach (var item in @entry.CheckboxList)
+		        {
+		            @item<br/>
+		        }
+		    </td>
+		    <td><img src="@entry.MediaPicker.Url" width="150" height="150"/></td>
+		    <td>@entry.Numeric</td>
+		    <td>@Html.Raw(entry.SimpleEditor)</td>
+		    <td>@entry.TrueFalse</td>
+		    <td>@entry.TextboxMultiple</td>
+		    @*<td><span><a href="@entry.UrlPicker.Url" @(@entry.UrlPicker.NewWindow ? "target='_blank'" : "")>@entry.UrlPicker.Title</a></span></td>*@
+		    <td>@entry.Dropdown</td>
+            <td>
+		        @foreach (var item in @entry.DropdownMultiple)
+		        {
+		            @item<br/>
+		        }
+		    </td>
 		</tr>
 	}
 </table>

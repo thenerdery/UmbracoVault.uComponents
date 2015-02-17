@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ReferenceWebsite</RootNamespace>
-    <AssemblyName>ReferenceWebsite</AssemblyName>
+    <RootNamespace>ReferenceWebsite.uComponents</RootNamespace>
+    <AssemblyName>ReferenceWebsite.uComponents</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -120,12 +120,10 @@
       <Private>True</Private>
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\System.Data.SqlServerCe.Entity.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -177,53 +175,9 @@
     <Reference Include="TidyNet">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\TidyNet.dll</HintPath>
     </Reference>
-    <Reference Include="uComponents.Controls, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.Core, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.Core.dll</HintPath>
-    </Reference>
     <Reference Include="uComponents.DataTypes, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.DataTypes.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.DataTypes.RazorDataTypeModels, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.DataTypes.RazorDataTypeModels.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.Installer, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.Installer.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.Legacy, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.Legacy.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.MacroEngines, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.MacroEngines.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.Mapping, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.Mapping.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.NotFoundHandlers, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.NotFoundHandlers.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.PropertyEditors.ValueConverters, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.PropertyEditors.ValueConverters.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.UI, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="uComponents.XsltExtensions, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\uComponents.6.0.0\lib\net40\uComponents.XsltExtensions.dll</HintPath>
     </Reference>
     <Reference Include="umbraco">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\umbraco.dll</HintPath>
@@ -255,18 +209,12 @@
     <Reference Include="UmbracoExamine">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\UmbracoExamine.dll</HintPath>
     </Reference>
-    <Reference Include="UmbracoVault">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\UmbracoVault.1.0.0\lib\net45\UmbracoVault.dll</HintPath>
-    </Reference>
     <Reference Include="UrlRewritingNet.UrlRewriter">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\UrlRewritingNet.UrlRewriter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="config\xsltExtensions.config" />
     <Content Include="config\UrlRewriting.config" />
@@ -290,9 +238,20 @@
     <Content Include="config\BaseRestExtensions.config" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
-    <Content Include="Views\Partials\ucomponents-datatypegrid.cshtml" />
-    <Content Include="Views\Partials\ucomponents-url.cshtml" />
-    <Content Include="Views\uComponentTypes.cshtml" />
+    <Content Include="Views\GenericContent.cshtml" />
+    <Content Include="Views\Partials\breadcrumbs.cshtml" />
+    <Content Include="Views\Partials\numeric-types.cshtml" />
+    <Content Include="Views\Partials\text-types.cshtml" />
+    <Content Include="Views\Arrays.cshtml" />
+    <Content Include="Views\LocationDetail.cshtml" />
+    <Content Include="Views\NumericTypes.cshtml" />
+    <Content Include="Views\Objects.cshtml" />
+    <Content Include="Views\Primitives.cshtml" />
+    <Content Include="Views\StafferDetail.cshtml" />
+    <Content Include="Views\TextTypes.cshtml" />
+    <Content Include="Views\Enums.cshtml" />
+    <Content Include="Views\BlogEntry.cshtml" />
+    <Content Include="Views\BlogHome.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -310,23 +269,23 @@
     <Content Include="media\dummy.txt" />
     <Content Include="scripts\dummy.txt" />
     <Content Include="usercontrols\dummy.txt" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="xslt\dummy.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Arrays.cs" />
+    <Compile Include="Models\Enums.cs" />
     <Compile Include="Models\GenericContent.cs" />
-    <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\MediaItem.cs" />
-    <Compile Include="Models\Person.cs" />
-    <Compile Include="Models\UComponents.cs" />
+    <Compile Include="Models\NumericPrimitives.cs" />
+    <Compile Include="Models\Blog.cs" />
+    <Compile Include="Models\Objects.cs" />
+    <Compile Include="Models\TextPrimitives.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UmbracoVault.uComponents\UmbracoVault.uComponents.csproj">
-      <Project>{1f41da14-c5be-4a3d-bca2-6b2df7512ee2}</Project>
-      <Name>Nerdery.Umbraco.VaultExtensions</Name>
+    <ProjectReference Include="..\UmbracoVault\UmbracoVault.csproj">
+      <Project>{7a5c0119-ef41-4b19-88da-35c7b5f7e481}</Project>
+      <Name>UmbracoVault</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -344,7 +303,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52163</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52165/</IISUrl>
+          <IISUrl>http://localhost:52164/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
