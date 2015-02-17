@@ -75,13 +75,3 @@ public class UComponentsDataTypeGridItem
     public string[] DropdownMultiple { get; set; } //Currently returns prevalue from Umbraco http://bit.ly/1qWCPXO
 }
 ```
-
-## Notes:
-
- * Currently depends on build artifact pacakage from private appveyor nuget feed. Please manually add the Repository <https://ci.appveyor.com/nuget/umbracovault-5m6ate96gcwx> or run the command
-
-```
-nuget Sources Add -Name UmbracoVaultBuild -Source https://ci.appveyor.com/nuget/umbracovault-5m6ate96gcwx -UserName %NUGET_USERNAME% -Password %NUGET_PASSWORD%
-```
-
-Please contact project developers to get access to the nuget feed
