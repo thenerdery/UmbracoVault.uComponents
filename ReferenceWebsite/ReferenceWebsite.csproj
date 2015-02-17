@@ -255,16 +255,18 @@
     <Reference Include="UmbracoExamine">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\UmbracoExamine.dll</HintPath>
     </Reference>
-    <Reference Include="UmbracoVault, Version=0.9.0.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="UmbracoVault">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\UmbracoVault.0.9.0\lib\net45\UmbracoVault.dll</HintPath>
+      <HintPath>..\packages\UmbracoVault.1.0.0\lib\net45\UmbracoVault.dll</HintPath>
     </Reference>
     <Reference Include="UrlRewritingNet.UrlRewriter">
       <HintPath>..\packages\UmbracoCms.Core.6.2.4\lib\UrlRewritingNet.UrlRewriter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Web.config" />
     <Content Include="config\xsltExtensions.config" />
     <Content Include="config\UrlRewriting.config" />
