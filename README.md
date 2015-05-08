@@ -1,5 +1,8 @@
 #uComponents Support for Umbraco Vault
 
+Since uComponents isn't supported before Umbraco CMS v7, this project doesn't support Umbraco.Core before v7.0.
+Note that UmbracoVault itself _does_ support Umbraco v7.
+
 ### Build Status:
 
 | Branch | Status |
