@@ -7,8 +7,8 @@ Note that UmbracoVault itself _does_ support Umbraco v7.
 
 | Branch | Status |
 | ------ | ------ |
-| master | [![Build status](https://ci.appveyor.com/api/projects/status/ud0kc1si9ho0asor?svg=true)](https://ci.appveyor.com/project/kensykora/umbracovault-ucomponents) |
-| develop | [![Build status](https://ci.appveyor.com/api/projects/status/ud0kc1si9ho0asor?svg=true)](https://ci.appveyor.com/project/kensykora/umbracovault-ucomponents/branch/develop) |
+| master | [![Build status](https://ci.appveyor.com/api/projects/status/cikv8rloa698ongv?svg=true)](https://ci.appveyor.com/project/thenerdery/umbracovault-ucomponents) |
+| develop | [![Build status](https://ci.appveyor.com/api/projects/status/cikv8rloa698ongv?svg=true)](https://ci.appveyor.com/project/thenerdery/umbracovault-ucomponents/branch/develop) |
 
 ## Supported Data Types
 
