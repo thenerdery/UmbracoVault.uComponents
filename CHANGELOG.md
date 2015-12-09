@@ -1,3 +1,7 @@
+## 1.0.2
+
+ * Fixes to support uComponents 6.1.0 and re-tested against Umbraco 6.2.5 (#1 -- thanks @kluhman)
+
 ## 1.0.1
 
  * Umbraco.Core version no longer has a very strict subset, just depends on < 7.0. (thanks Eric Weiss)
