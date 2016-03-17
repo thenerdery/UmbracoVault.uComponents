@@ -53,6 +53,6 @@ namespace UmbracoVault.uComponents.TypeHandlers
             return result;
         }
 
-        public Type TypeSupported { get { return typeof (string); }}
+        public Type TypeSupported => typeof (string);
     }
 }

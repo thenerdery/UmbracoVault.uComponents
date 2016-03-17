@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{699CD1F8-7661-45DB-955D-867AEA80FB2A}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
-		NuGet.config = NuGet.config
 		UmbracoVault.uComponents\UmbracoVault.uComponents.nuspec = UmbracoVault.uComponents\UmbracoVault.uComponents.nuspec
 	EndProjectSection
 EndProject

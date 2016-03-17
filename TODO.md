@@ -1,10 +1,5 @@
-## CI
-
-Setup nerdery org account for AppVeyor
-
 ## Code
 
-Add support for Umbraco 7
 Add support for DateTime fields
 Add support for URL Picker in DataType Grid
 Add support for dropdown / checklist Prevalues in core

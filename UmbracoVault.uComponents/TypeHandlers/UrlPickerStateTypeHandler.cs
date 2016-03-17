@@ -10,14 +10,10 @@ namespace UmbracoVault.uComponents.TypeHandlers
     /// </summary>
     public class UrlPickerStateTypeHandler : ITypeHandler
     {
-        private UrlPickerState Get(object value)
+        private static UrlPickerState Get(object value)
         {
-            var urlPickerState = value as UrlPickerState;
+            var urlPickerState = value as UrlPickerState ?? (UrlPickerState.Deserialize(value.ToString()) ?? new UrlPickerState { NewWindow = false, Title = string.Empty, Url = string.Empty });
 
-            if (urlPickerState == null)
-            {
-                urlPickerState = UrlPickerState.Deserialize(value.ToString()) ?? new UrlPickerState { NewWindow = false, Title = string.Empty, Url = string.Empty };
-            }
             return urlPickerState;
         }
 
@@ -26,9 +22,6 @@ namespace UmbracoVault.uComponents.TypeHandlers
     	    return Get(input);
     	}
 
-        public Type TypeSupported
-        {
-            get { return typeof (UrlPickerState); }
-        }
+        public Type TypeSupported => typeof (UrlPickerState);
     }
 }
