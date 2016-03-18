@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using uComponents.DataTypes.DataTypeGrid.Model;
+
 using UmbracoVault.Exceptions;
 using UmbracoVault.Extensions;
 using UmbracoVault.TypeHandlers;
-using uComponents.DataTypes.DataTypeGrid.Model;
 
 namespace UmbracoVault.uComponents.TypeHandlers
 {
@@ -21,12 +22,12 @@ namespace UmbracoVault.uComponents.TypeHandlers
             }
             foreach (var row in rows)
             {
-                var item = typeof (T).CreateWithNoParams<T>();
+                var item = typeof(T).CreateWithNoParams<T>();
 
                 // ReSharper disable once CompareNonConstrainedGenericWithNull
                 if (item == null)
                 {
-                    throw new ConstructorUnavailableException(typeof (T));
+                    throw new ConstructorUnavailableException(typeof(T));
                 }
 
                 var currentRow = row;
@@ -48,11 +49,10 @@ namespace UmbracoVault.uComponents.TypeHandlers
                 });
 
                 result.Add(item);
-
             }
             return result;
         }
 
-        public Type TypeSupported => typeof (string);
+        public Type TypeSupported => typeof(string);
     }
 }

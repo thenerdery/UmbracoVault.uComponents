@@ -1,12 +1,15 @@
 ﻿using System;
-using UmbracoVault.TypeHandlers;
+using System.Collections.Generic;
+using System.Linq;
+
 using uComponents.DataTypes.UrlPicker.Dto;
+
+using UmbracoVault.TypeHandlers;
 
 namespace UmbracoVault.uComponents.TypeHandlers
 {
-    // TODO: This doesn't appear to be needed.
     /// <summary>
-    /// Used for binding Url Picker data types from Umbraco to strongly typed objects
+    ///     Used for binding Url Picker data types from Umbraco to strongly typed objects
     /// </summary>
     public class UrlPickerStateTypeHandler : ITypeHandler
     {
@@ -17,11 +20,11 @@ namespace UmbracoVault.uComponents.TypeHandlers
             return urlPickerState;
         }
 
-    	public object GetAsType<T>(object input)
-    	{
-    	    return Get(input);
-    	}
+        public object GetAsType<T>(object input)
+        {
+            return Get(input);
+        }
 
-        public Type TypeSupported => typeof (UrlPickerState);
+        public Type TypeSupported => typeof(UrlPickerState);
     }
 }

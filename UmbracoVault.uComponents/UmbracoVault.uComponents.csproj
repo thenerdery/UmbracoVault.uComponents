@@ -32,182 +32,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="businesslogic, Version=1.0.5529.18435, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\businesslogic.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="ClientDependency.Core, Version=1.8.2.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ClientDependency.1.8.2.1\lib\net45\ClientDependency.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="cms, Version=1.0.5529.18435, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\cms.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="controls, Version=1.0.5529.18436, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\controls.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Examine, Version=0.1.57.2941, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Examine.0.1.57.2941\lib\Examine.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="interfaces, Version=1.0.5529.18434, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\log4net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=1.0.1559.20655, Culture=neutral">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Microsoft.ApplicationBlocks.Data.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Microsoft.Web.Helpers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.1\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Our.Umbraco.uGoLive, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Our.Umbraco.uGoLive.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Our.Umbraco.uGoLive.47x, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Our.Umbraco.uGoLive.47x.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Our.Umbraco.uGoLive.Checks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Our.Umbraco.uGoLive.Checks.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SQLCE4Umbraco, Version=1.0.5529.18436, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\SQLCE4Umbraco.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\System.Data.SqlServerCe.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Data.SqlServerCe.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\System.Data.SqlServerCe.Entity.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="TidyNet, Version=1.0.0.0, Culture=neutral">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\TidyNet.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.Controls, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.Controls.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="uComponents.DataTypes, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.DataTypes.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="uComponents.DataTypes.RazorDataTypeModels, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.DataTypes.RazorDataTypeModels.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.Installer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.Installer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.Legacy, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.Legacy.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.MacroEngines, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.MacroEngines.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.Mapping, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.Mapping.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.NotFoundHandlers, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.NotFoundHandlers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.PropertyEditors.ValueConverters, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.PropertyEditors.ValueConverters.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.UI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="uComponents.XsltExtensions, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uComponents.6.1.0\lib\net40\uComponents.XsltExtensions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco, Version=1.0.5529.18437, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Umbraco.Core, Version=1.0.5529.18434, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Umbraco.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.DataLayer, Version=1.0.5529.18435, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.DataLayer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.editorControls, Version=1.0.5529.18438, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.editorControls.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.MacroEngines, Version=1.0.5529.18438, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.MacroEngines.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.macroRenderings, Version=1.0.5529.18436, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.macroRenderings.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.providers, Version=1.0.5529.18436, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.providers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Umbraco.Web.UI, Version=1.0.5529.18438, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\Umbraco.Web.UI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="umbraco.XmlSerializers, Version=1.0.5529.18437, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\umbraco.XmlSerializers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="UmbracoExamine, Version=0.6.0.18436, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\UmbracoExamine.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="UmbracoVault, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoVault.1.2.0-build39\lib\net45\UmbracoVault.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoCms.Core.6.2.5\lib\UrlRewritingNet.UrlRewriter.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -222,9 +54,6 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="umbraco\plugins\uComponents\uComponentsInstaller.ascx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
