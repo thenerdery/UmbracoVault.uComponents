@@ -22,8 +22,7 @@ namespace ReferenceWebsite.Models
     public class UComponentsDataTypeGridItem
     {
         public string TextString { get; set; }
-        //public DateTime DatePicker { get; set; }
-        //TODO: Re-enable support for DateTime once included in Core
+        public DateTime DatePicker { get; set; }
         public Person ContentPicker { get; set; }
         public string[] CheckboxList { get; set; }
         public MediaItem MediaPicker { get; set; } //MediaItem is a class with the `UmbracoMediaEntity` attribute
