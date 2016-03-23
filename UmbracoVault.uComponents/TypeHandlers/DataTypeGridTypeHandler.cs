@@ -4,12 +4,14 @@ using System.Linq;
 
 using uComponents.DataTypes.DataTypeGrid.Model;
 
+using UmbracoVault.Attributes;
 using UmbracoVault.Exceptions;
 using UmbracoVault.Extensions;
 using UmbracoVault.TypeHandlers;
 
 namespace UmbracoVault.uComponents.TypeHandlers
 {
+    [IgnoreTypeHandlerAutoRegistration]
     public class DataTypeGridTypeHandler : ITypeHandler
     {
         public object GetAsType<T>(object input)
