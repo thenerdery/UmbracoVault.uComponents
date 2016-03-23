@@ -39,7 +39,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="UmbracoVault, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\UmbracoVault.1.2.0-build39\lib\net45\UmbracoVault.dll</HintPath>
+      <HintPath>..\packages\UmbracoVault.1.2.0-alpha4\lib\net45\UmbracoVault.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
