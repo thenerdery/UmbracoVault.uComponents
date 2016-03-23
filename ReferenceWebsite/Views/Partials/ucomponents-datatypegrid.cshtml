@@ -15,12 +15,12 @@
 	    <td>Simple Editor</td>
 	    <td>Truefalse</td>
 	    <td>Textbox Multiple</td>
-	    @*<td>UrlPicker</td>*@
+	    <td>UrlPicker</td>
 	    <td>Dropdown</td>
         <td>Dropdown Mutliple</td>
 	</tr>
 	@foreach(var entry in poco.DataTypeGrid)
-	{
+    {
 		<tr>
 			<td>@entry.TextString</td>
 		    @*<td>@entry.DatePicker</td>*@
@@ -36,6 +36,12 @@
 		    <td>@Html.Raw(entry.SimpleEditor)</td>
 		    <td>@entry.TrueFalse</td>
 		    <td>@entry.TextboxMultiple</td>
+		    <td>@if (entry.UrlPicker != null)
+                {
+                    var target = entry.UrlPicker.NewWindow ? "target=_blank" : "";
+		            <a href="@entry.UrlPicker.Url" @target>@entry.UrlPicker.Title</a>
+		        }
+		    </td>
 		    @*<td><span><a href="@entry.UrlPicker.Url" @(@entry.UrlPicker.NewWindow ? "target='_blank'" : "")>@entry.UrlPicker.Title</a></span></td>*@
 		    <td>@entry.Dropdown</td>
             <td>
