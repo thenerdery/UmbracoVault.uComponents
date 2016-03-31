@@ -6,12 +6,13 @@
     <title>Umbraco Vault for uComponents</title>
     <authors>Paul Trandem, Ken Sykora, Andrew Morger, Jared Swarts, Phillip Knauss</authors>
     <owners>thenerdery</owners>
-    <projectUrl>https://github.com/kensykora/UmbracoVault.uComponents</projectUrl>
-    <licenseUrl>https://github.com/kensykora/UmbracoVault.uComponents/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/thenerdery/UmbracoVault.uComponents</projectUrl>
+    <licenseUrl>https://github.com/thenerdery/UmbracoVault.uComponents/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Extension to Vault for Umbraco adding uComponents support.</description>
-    <copyright>Copyright 2014</copyright>
-    <tags>C# Umbraco Nerdery Mapping Extensions</tags>
+    <releaseNotes>Fixed an issue where the uComponents library was not auto registering itself as it should have been (#3 -- thanks @jesse-black)</releaseNotes>
+    <copyright>(c) The Nerdery LLC 2016. All Rights Reserved.</copyright>
+    <tags>Umbraco UmbracoVault uComponents Mapping ObjectMapper ORM CMS</tags>
     <dependencies>
       <dependency id="UmbracoCms.Core" version="(,7.0)" />
       <dependency id="uComponents" version="6.1.0" />
