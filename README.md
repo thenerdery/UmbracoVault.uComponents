@@ -1,14 +1,8 @@
 #uComponents Support for Umbraco Vault
 
-Since uComponents isn't supported before Umbraco CMS v7, this project doesn't support Umbraco.Core before v7.0.
-Note that UmbracoVault itself _does_ support Umbraco v7.
-
-### Build Status:
-
-| Branch | Status |
-| ------ | ------ |
-| master | [![Build status](https://ci.appveyor.com/api/projects/status/cikv8rloa698ongv/branch/master?svg=true)](https://ci.appveyor.com/project/thenerdery/umbracovault-ucomponents/branch/master) |
-| develop | [![Build status](https://ci.appveyor.com/api/projects/status/cikv8rloa698ongv/branch/develop?svg=true)](https://ci.appveyor.com/project/thenerdery/umbracovault-ucomponents/branch/develop) |
+[![NuGet](https://img.shields.io/nuget/v/UmbracoVault.uComponents.svg?style=flat-square)](https://www.nuget.org/packages/UmbracoVault.uComponents)
+[![Build status](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)](https://ci.appveyor.com/project/TheNerdery/umbracovault.uComponents/branch/master)
+[![License](https://img.shields.io/github/license/thenerdery/UmbracoVault.uComponents.svg?style=flat-square)](https://github.com/thenerdery/UmbracoVault.uComponents/blob/master/LICENSE)
 
 ## Supported Data Types
 
