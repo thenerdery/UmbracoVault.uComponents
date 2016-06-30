@@ -14,7 +14,7 @@
     <copyright>(c) The Nerdery LLC 2016. All Rights Reserved.</copyright>
     <tags>Umbraco UmbracoVault uComponents Mapping ObjectMapper ORM CMS</tags>
     <dependencies>
-      <dependency id="UmbracoCms.Core" version="(,7.0)" />
+      <dependency id="UmbracoCms.Core" version="6.1.0" />
       <dependency id="uComponents" version="6.1.0" />
       <dependency id="UmbracoVault" version="1.2.0" />
     </dependencies>
