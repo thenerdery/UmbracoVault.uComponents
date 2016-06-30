@@ -1,7 +1,7 @@
 #uComponents Support for Umbraco Vault
 
 [![NuGet](https://img.shields.io/nuget/v/UmbracoVault.uComponents.svg?style=flat-square)](https://www.nuget.org/packages/UmbracoVault.uComponents)
-[![Build status](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?style=flat-square)](https://ci.appveyor.com/project/TheNerdery/umbracovault-uComponents/branch/master)
+[![Build status](https://img.shields.io/appveyor/ci/TheNerdery/umbracovault-uComponents.svg?style=flat-square)](https://ci.appveyor.com/project/TheNerdery/umbracovault-uComponents)
 [![License](https://img.shields.io/github/license/thenerdery/UmbracoVault.uComponents.svg?style=flat-square)](https://github.com/thenerdery/UmbracoVault.uComponents/blob/master/LICENSE)
 
 ## Supported Data Types
