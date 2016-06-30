@@ -1,6 +1,6 @@
 environment:
-  CURRENT_VERSION: 1.0.3
-version: 1.0.3-{build}
+  CURRENT_VERSION: 1.0.4
+version: 1.0.4-{build}
 os: Visual Studio 2015
 assembly_info:
   patch: true
